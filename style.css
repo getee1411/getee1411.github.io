@@ -1,0 +1,61 @@
+body {
+    background-color: #6A9AB0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.sosmed {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-style: bold;
+    line-height: 1px;
+}
+
+.imgcontainer {
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.sosmedcontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 500px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.date {
+    font-size: 15pt;
+}

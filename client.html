@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Web</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="imgcontainer">
+            <img src="./assets/a.jpeg" alt="avatar" class="avatar">
+        </div>
+        <div class="textcontainer">
+            <p>Genta Bhatara Anggasani Putra</p>
+            <p>1202220009</p>
+        </div>
+        <div class="sosmedcontainer">
+            <a href="https://www.instagram.com/geteeeee?igsh=MXV5cWR3aWZpNjhkdQ==">
+                <img src="./assets/ig.png" alt="instagram" class="sosmed">
+            </a>
+            <a href="https://wa.link.ruusr5">
+                <img src="./assets/wa.png" alt="whatsapp" class="sosmed">
+            </a>
+        </div>
+        <p id="datetime" class="date"></p>
+    </div>
+</body>
+
+<script>
+    var now = new Date();
+    var datetime = now.toLocaleDateString();
+
+    document.getElementById("datetime").innerHTML = datetime;
+</script>
+
+</html>
